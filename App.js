@@ -13,7 +13,7 @@ export default function App() {
     {/* Profile Image */}
       <Image
         source={{
-          uri: 'https://via.placeholder.com/150', // Replace with your image URL
+          uri: 'https://via.placeholder.com/150', // image URL
         }}
         style={styles.profileImage}
       />
