@@ -12,7 +12,7 @@ export default function App() {
 
     {/* Profile Image */}
       <Image
-        source={require('./assets/profile.jpg')} // Use the local image
+        source={require('./assets/IMG_4367.jpg')} // Use the local image
         style={styles.profileImage}
       />
       
