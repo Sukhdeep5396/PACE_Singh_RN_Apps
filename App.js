@@ -10,6 +10,13 @@ export default function App() {
     <ScrollView contentContainerStyle={styles.container}>
       <Text style={styles.header}>Personal Bio Data</Text>
 
+    {/* Profile Image */}
+      <Image
+        source={{
+          uri: 'https://via.placeholder.com/150', // Replace with your image URL
+        }}
+        style={styles.profileImage}
+      />
       
       <View style={styles.section}>
         <Text style={styles.label}>Full Name:</Text>
