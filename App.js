@@ -12,9 +12,7 @@ export default function App() {
 
     {/* Profile Image */}
       <Image
-        source={{
-          uri: 'https://via.placeholder.com/150', // image URL
-        }}
+        source={require('./assets/profile.jpg')} // Use the local image
         style={styles.profileImage}
       />
       
